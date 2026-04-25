@@ -13,6 +13,6 @@ steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'sc-azure-blob-upload'
-    scriptType: 'bash'
+    scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: 'az storage blob upload --account-name asadocs1 --container-name docs --name docs.html --file "docs.html" --overwrite'
