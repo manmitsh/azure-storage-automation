@@ -16,7 +16,7 @@ steps:
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: |
-     $filePath = "$(System.DefaultWorkingDirectory)/docs/docs.html"
+     $filePath = "$(System.DefaultWorkingDirectory)/docs.html"
       az storage blob upload `
         --account-name asadocs1 `
         --container-name docs `
