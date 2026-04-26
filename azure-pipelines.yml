@@ -7,7 +7,7 @@ trigger:
   - main
   
 pool:
-    vmImage: MSlaptoppool
+    name: MSlaptoppool
   
 steps:
 - task: AzureCLI@2
