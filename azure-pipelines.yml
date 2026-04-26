@@ -16,11 +16,12 @@ steps:
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: |
+     $filePath = "$(System.DefaultWorkingDirectory)/docs/docs.html"
       az storage blob upload `
         --account-name asadocs1 `
         --container-name docs `
         --name docs.html `
-        --file "c:\docs\docs.html" `
+        --file $filePath `
         --auth-mode login `
         --overwrite
    # inlineScript: 'az account show'
