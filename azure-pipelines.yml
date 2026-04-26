@@ -20,7 +20,7 @@ steps:
         --account-name asadocs1 `
         --container-name docs `
         --name docs.html `
-        --file "$(System.DefaultWorkingDirectory)/docs/docs.html" `
+        --file "c:/docs/docs.html" `
         --auth-mode login `
         --overwrite
    # inlineScript: 'az account show'
