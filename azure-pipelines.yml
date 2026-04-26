@@ -16,4 +16,4 @@ steps:
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
    # inlineScript: 'az account show'
-    inlineScript: 'az storage blob upload --account-name asadocs1  --container-name docs --name docs.html --file "docs.html" --overwrite'
+    inlineScript: 'az storage blob upload --account-name asadocs1   --container-name docs --name docs.html --file "docs.html" --overwrite'
