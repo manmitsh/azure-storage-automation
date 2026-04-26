@@ -7,7 +7,7 @@ trigger:
   - main
   
 pool:
-    vmImage: WinBuild
+    vmImage: MSlaptoppool
   
 steps:
 - task: AzureCLI@2
