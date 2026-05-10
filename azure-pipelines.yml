@@ -20,7 +20,7 @@ steps:
       az storage blob upload `
         --account-name asadocs1 `
         --container-name docs `
-        --name docs1.html `
+        --name docs2.html `
         --file $filePath `
         --auth-mode login `
         --overwrite
