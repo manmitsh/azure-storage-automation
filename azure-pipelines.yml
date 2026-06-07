@@ -5,6 +5,10 @@
 
 trigger:
   - main
+
+pr:
+  - main
+
   
 pool:
     name: MSlaptoppool
