@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description="Upload a file to Azure Blob Storag
 parser.add_argument("--sas-token", required=True, help="SAS token for authentication")
 args = parser.parse_args()
 
-storage_account = "asadocs"
+storage_account = "asadocs1"
 container_name = "docs"
 object_type = "blob"
 blob_name = "docs.html"
