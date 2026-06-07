@@ -20,11 +20,11 @@ steps:
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: |
-     $filePath = "$(System.DefaultWorkingDirectory)/temp.html"
+     $filePath = "$(System.DefaultWorkingDirectory)/doc.html"
       az storage blob upload `
         --account-name asadocs1 `
         --container-name docs `
-        --name docs3.html `
+        --name docs4.html `
         --file $filePath `
         --auth-mode login `
         --overwrite
